@@ -1,0 +1,43 @@
+.container {
+    margin:auto;
+    width: 1300px;
+    outline: solid 2px blue;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.banner-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+.client-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.client-flex .tiger {
+    width: 16.66%;
+    height: 100px;
+    outline: solid 1px yellow;
+}
+.about-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-flex .lion {
+    width: 50%;
+    height: 300px;
+    outline: solid 1px green;
+}
+.achivement-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.achivement-flex .snake {
+    width: 25%;
+    height: 100px;
+    outline: solid 1px violet;
+}
